@@ -1,0 +1,17 @@
+# Project - CS 317
+## Emily Lim
+## emily.lim@wsu.edu
+
+### List Of Files:
+    - main.c: contains stack structure, functions for push, pop, building the nfa, comparing transitions, and main function to read from file
+    - nfa.c: contains functions to create nfa and transition structures
+    - nfa.h: contains nfa and transition structures and function declarations
+    - Makefile: to compile the above files using "make" and run the executable
+    - test_input.txt: test file provided
+    - test.txt: another test file to check other cases
+
+### How To Run:
+1. Unzip file and place the folder into a directory.
+2. cd into directory of the folder, compile with "make" in the terminal.
+3. Use format: "./main <filename>.txt" in the terminal.
+    - <filename> must be a file in the folder, and must contain regular expressions (one per line)
